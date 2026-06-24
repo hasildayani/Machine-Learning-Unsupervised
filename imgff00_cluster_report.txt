@@ -1,0 +1,49 @@
+════════════════════════════════════════════════════════════
+  MENTAL HEALTH IN TECH – CLUSTER REPORT
+  Dataset : 1433 respondents | 63 questions
+  Model   : K-Means  (k=2, best silhouette=0.0789)
+════════════════════════════════════════════════════════════
+
+┌──────────────────────────────────────────
+│ Cluster 1: Unsupported & Burdened  (n=799, 55.8%)
+├──────────────────────────────────────────
+│  Employer Support   : 0.49  (0=none, 1=excellent)
+│  Openness Score     : 0.45  (0=closed, 1=very open)
+│  Perceived Stigma   : 0.52  (0=none, 1=high)
+│  Personal MH Burden : 0.86  (0=none, 1=high)
+└──────────────────────────────────────────
+
+┌──────────────────────────────────────────
+│ Cluster 2: Supported & Open  (n=634, 44.2%)
+├──────────────────────────────────────────
+│  Employer Support   : 0.44  (0=none, 1=excellent)
+│  Openness Score     : 0.46  (0=closed, 1=very open)
+│  Perceived Stigma   : 0.40  (0=none, 1=high)
+│  Personal MH Burden : 0.17  (0=none, 1=high)
+└──────────────────────────────────────────
+
+GENERATED OUTPUTS
+─────────────────
+  01_missing_values.png
+  02_eda_overview.png
+  03_crosstab_disorder_vs_workplace.png
+  04_pca_scree.png
+  05_pca_loadings.png
+  06_elbow_silhouette.png
+  07_silhouette_diagram.png
+  08_dendrogram.png
+  09_cluster_projections.png
+  10_cluster_sizes.png
+  11_cluster_radar.png
+  12_cluster_heatmap.png
+  13_key_features_by_cluster.png
+  14_demographics_by_cluster.png
+
+HR RECOMMENDATION LEVER POINTS
+───────────────────────────────
+  1. Improve employer MH benefit communication (clusters with low employer_support_score)
+  2. Anti-stigma campaigns targeting clusters with high perceived_stigma_score
+  3. Peer support programs for clusters with high personal_mh_burden_score
+  4. Manager training for clusters showing low openness_score
+  5. Anonymous reporting channels for clusters reporting workplace incidents
+════════════════════════════════════════════════════════════
